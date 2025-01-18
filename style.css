@@ -20,3 +20,36 @@ body{
   background-position: center;
   background-size: 70%;
 }
+
+/* .input i{
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+i{
+  color: white;
+}
+
+.chat_bar{
+  padding: 10px;
+}
+
+.input{
+  position: relative;
+}
+
+.input input{
+  outline: none;
+  width: 70%;
+  padding: 10px;
+  border: none;
+}
+
+.input :nth-child(2){
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: black;
+}
