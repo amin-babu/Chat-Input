@@ -19,6 +19,7 @@ body{
   background: url('https://wallpapers.com/images/hd/whatsapp-chat-background-fb34cc4b2hg9lmix.jpg');
   background-position: center;
   background-size: 70%;
+  display: flex;
 }
 
 .chat_bar{
@@ -42,38 +43,45 @@ i{
 
 .input input{
   outline: none;
-  width: 90%;
-  padding: 10px;
+  width: 98%;
+  padding: 11px;
   border: none;
-  padding-left: 30px;
+  padding-left: 31px;
   background-color: #1F272A;
   border-radius: 40px;
 }
 
 .input :nth-child(2){
   position: absolute;
-  left: 7px;
+  left: 8px;
   top: 50%;
   transform: translateY(-50%);
   color: #6D7578;
+  cursor: pointer;
 }
 
 .input :nth-child(3){
   position: absolute;
   color: #6D7578;
   top: 50%;
-  right: 64px;
+  right: 46px;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .input :nth-child(4){
   position: absolute;
   color: #6D7578;
   top: 50%;
-  right: 32px;
+  right: 16px;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .voice i{
-  
+  background-color: #1EC362;
+  color: #08121B;
+  border-radius: 50%;
+  padding: 8px 10px;
+  cursor: pointer;
 }
