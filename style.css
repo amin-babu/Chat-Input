@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 22%;
+  height:80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url('https://wallpapers.com/images/hd/whatsapp-chat-background-fb34cc4b2hg9lmix.jpg');
+  background-position: center;
+  background-size: 70%;
+}
